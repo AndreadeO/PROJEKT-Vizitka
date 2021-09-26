@@ -7,7 +7,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     background-color:#b2bec3;
-    text-align: left;
+    text-align: justify;
     line-height: 1.6;
 }
 
@@ -17,11 +17,12 @@ body {
     padding: 30px;
     margin-top: 150px;
     width: 550px;
+    height: 550px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     position: relative;
-    box-shadow: 5px 10px 40px;
+    box-shadow: 2px 3px 9px 0px #616161;
 }
 
 
@@ -29,8 +30,8 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     color: #d63031;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
+    
 }
 
 p {
@@ -43,8 +44,9 @@ p {
     border: 3px solid white;
     border-radius: 50%;
     position: absolute;
-    bottom: 85%;
-    left: 85%; 
+    top: -80px;
+    right: -80px; 
+    box-shadow: 2px 3px 7px 0px #616161;
 }   
 
 a {
